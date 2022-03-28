@@ -1282,8 +1282,8 @@ function generateHeaderContent(title, submitText) {
 	return `
 				<h1 class="AlbumsSearch_header_title">${title}</h1>
 				<div class="input-bar">
-							<input type="text" onClick="SearchArtists" placeholder="Artist Name" class="searchBar" />
-							<button class="input-bar_submit">${submitText}</button>
+					<input type="text" onClick="SearchArtists" placeholder="Artist Name" class="searchBar" />
+					<button class="input-bar_submit">${submitText}</button>
 				</div>
 	`
 }
