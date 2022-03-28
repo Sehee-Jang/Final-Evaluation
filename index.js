@@ -1330,10 +1330,10 @@ function render(element, template){
 function renderAlbumsList(albums, query){
 	// console.log(albums)
 	// tested with results
-	const tmp = generateAlbumsList(albums)
+	const tmp = generateAlbumsList(albums.results)
 	const ele = document.querySelector(domSelectors.albumsContent);
 	render(ele, tmp)
-	renderCount(albums, query)
+	renderCount(albums.results, query)
 }
 
 // APIs
