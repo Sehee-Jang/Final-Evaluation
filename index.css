@@ -1,0 +1,57 @@
+/* CSS RESET */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+button {
+	cursor: pointer;
+}
+
+ul  li {
+	list-style: none;
+}
+
+.container_wrap {
+	width: 900px;
+	margin:0 auto;
+}
+
+.Albums_Search {
+	width: 100%;
+	height:  100vh;
+}
+
+.AlbumsSearch_header {
+	background-color: #a4152c;
+	padding: 20px;
+	text-align: center;
+	position: fixed;
+	width: 100%
+}
+
+.AlbumsSearch_header_title {
+
+}
+
+.albums_content {
+	display:  flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content:flex-start;
+}
+
+.albums_content .album_item  {
+
+}
+
+.resultCount_container {
+
+}
+
+@media only screen and  (max-width: 550px) {
+	.container_wrap {
+	 width: 50%;
+	}
+}
